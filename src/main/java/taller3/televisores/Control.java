@@ -34,6 +34,8 @@ public class Control {
 	public void enlazar(TV tv) {
 		this.tv = tv;
 		tv.control = this;
+		
+		//this.tv.control = tv.control;
 	}
 
 	public TV getTv() {
