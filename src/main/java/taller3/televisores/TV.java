@@ -24,7 +24,7 @@ public class TV {
 	}
 
 	public static void setNumTV(int total) {
-		numTV = numTV + total;
+		numTV = total;
 		
 	}
 
