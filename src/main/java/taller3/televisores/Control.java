@@ -33,7 +33,7 @@ public class Control {
 	
 	public void enlazar(TV tv) {
 		this.tv = tv;
-		this.tv.control = tv.control;
+		tv.control = this;
 	}
 
 	public TV getTv() {
