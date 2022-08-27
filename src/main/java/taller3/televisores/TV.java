@@ -32,16 +32,20 @@ public class TV {
 			this.canal = canal;
 	}
 
+	public Control getControl() {
+		return control;
+	}
+
+	public void setControl(Control control) {
+		this.control = control;
+	}
+
 	public int getPrecio() {
 		return precio;
 	}
 
 	public void setPrecio(int precio) {
 		this.precio = precio;
-	}
-
-	public boolean isEstado() {
-		return estado;
 	}
 
 	public void setEstado(boolean estado) {
